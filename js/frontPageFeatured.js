@@ -1,0 +1,1 @@
+document.getElementById('lol').innerText = "Heya Bitch"
