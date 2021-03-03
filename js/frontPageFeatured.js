@@ -1,1 +1,1 @@
-document.getElementById('lol').innerText = "Heya Bitch"
+document.getElementById('lol').innerText = "Heya Bitch 2"
