@@ -1,0 +1,27 @@
+.addCydia {
+    background-color: rgb(102, 71, 42);
+   border: none;
+   color: rgb(0, 0, 0);
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   margin: 4px 2px;
+   cursor: pointer;
+   font-size: 30px;
+   border-radius: 32px;
+   height: 3vw;
+   width: 15vw;
+}
+.addCydia:hover {
+    background-color: rgb(136, 98, 61);
+
+
+}
+@keyframes addCydia{
+    50%  {transform: scale(0.8);}
+  }
+#push:hover{
+    animation: pulse 0.3s linear 1;
+  }
+ 
