@@ -1,13 +1,16 @@
 body {
-    background-color: #444444;
+    background-color: rgb(32, 33, 33);
     background-image: url('/img/background.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     align-content: center;
     align-items: center;
 }
+main {
+    padding-top: 10%;
+}
 header {
-    height: 4vw;
+    height: 10vw;
     background-color: #000000ab;
 }
 .header{
@@ -15,9 +18,13 @@ header {
     height:100px;
     position:fixed;
     top:0px;
-    z-index:3;
+    z-index:4;
 }
-
+.search {
+    padding-top: 1%;
+    height: fit-content;
+    width: 20%;
+}
 
 
 .header #background, .header #labels
@@ -25,7 +32,7 @@ header {
     position:absolute;
     top:0px;
     width:100%;
-    height:100%;
+    height:70%;
 }
 
 .header #labels{
@@ -43,6 +50,10 @@ header {
 .headerLogo {
     align-self: flex-start;
 }
+.smolLogo{
+    height: 2%;
+    width: 2%;
+}
 #snow {
     position: fixed;
     top: 0;
@@ -52,6 +63,7 @@ header {
     pointer-events: none;
     z-index: 1000;
 }
+
 .welcome {
     text-shadow: #fff;
 }
