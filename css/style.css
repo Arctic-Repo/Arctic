@@ -2,9 +2,13 @@ body {
     background-color: rgb(32, 33, 33);
     background-image: url('/img/background.png');
     background-repeat: no-repeat;
-    background-size: cover;
     align-content: center;
     align-items: center;
+}
+.homeLogo {
+    width: 10vw;
+    height: 10vw;
+   
 }
 main {
     padding-top: 10%;
