@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/buttons.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     </head>
-    <body class="text-center">
+    <body>
         <nav>
             <div class="header">
                 <div id="snow"></div>
@@ -17,31 +17,14 @@
                 <div id="labels">
                     <div class="headerLogo">
                         
-                        <nav class="text-white navbar navbar-expand-lg ">
-                            <div class="container-fluid">
+                        <div class="input-group mb-3">
+                            <a class="navbar-brand" href="#">
                                 <img width="60" height="48" src="/img/bigLogo.png" alt="Logo"> 
-
-                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
-                              <div class="collapse navbar-collapse" id="navbarText">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                  <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Features</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Pricing</a>
-                                  </li>
-                                </ul>
-                                <span class="navbar-text">
-                                  Navbar text with an inline element
-                                </span>
-                              </div>
-                            </div>
-                          </nav>
+                              </a>
+                            <form class="search d-flex">
+                                <input class="text-white bg-dark form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -49,10 +32,10 @@
         </nav>
         <main style="align-content: center;" class="content">
             <div class="welcome">
-                <img class="homeLogo" src="/img/bigLogo.png" alt="Logo">
+                <img src="..." alt="Logo">
                 <h1 id="welcomeText"></h1>
                 <div class="buttons">
-                    <button class=" text-white push addCydia"><img style="height: 2vw; width: 2vw;" src="/img/cydia.png"> to Cydia</button>
+                    <button class="push addCydia"></button>
                 </div>
             </div>
             
